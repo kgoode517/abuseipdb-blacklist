@@ -24,8 +24,8 @@ jobs:
 
       - name: Commit blacklist file
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
+          git config --global user.name "kgoode517"
+          git config --global user.email "kgoode71@gmail.com"
           git add blacklist.txt
           git commit -m "Update blacklist.txt"
           git push
